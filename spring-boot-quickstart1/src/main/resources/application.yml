@@ -1,2 +1,9 @@
 server:
   port: 8081
+
+
+my:
+  mood:
+    today: 周五
+    content: 努力工作
+    author: "小程序员"
