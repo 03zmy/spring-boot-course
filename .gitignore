@@ -16,5 +16,7 @@ target/
 
 .idea/
 
+spring-boot-config/src/main/resources/aliyun-oss.properties
+
 ### VS Code ###
 .vscode/

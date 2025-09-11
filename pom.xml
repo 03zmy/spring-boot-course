@@ -16,6 +16,7 @@
     <description>spring-boot-course</description>
     <modules>
         <module>spring-boot-quickstart1</module>
+        <module>spring-boot-config</module>
     </modules>
 
     <properties>
@@ -43,6 +44,23 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <!--  lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- 容联云短信 SDK -->
+        <dependency>
+            <groupId>com.cloopen</groupId>
+            <artifactId>java-sms-sdk</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+
+
+
 
     </dependencies>
 
